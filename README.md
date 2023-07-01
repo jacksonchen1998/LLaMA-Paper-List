@@ -1,12 +1,15 @@
 # LLaMA-Paper-List
 
-Collection of paper using LLaMA as backbone model.
+Collection of papers using LLaMA as backbone model.
 
 ## Table of Contents
 
 - [About LLaMA and related theory](#about-llama-and-related-theory)
 - [LLaMA with parameter efficiency](#llama-with-parameter-efficiency)
-- [LLaMA in Real world application](#llama-in-real-world-application)
+- [Fine-tune LLaMA on downstream tasks](#fine-tune-llama-on-downstream-tasks)
+- [LLaMA with retrieval](#llama-with-retrieval)
+- [LLaMA using reinforcement learning](#llama-using-reinforcement-learning)
+- [Quantitative analysis of LLaMA](#quantitative-analysis-of-llama)
 
 ## Papers
 
@@ -25,8 +28,12 @@ Collection of paper using LLaMA as backbone model.
 *Peng Gao, Jiaming Han, Renrui Zhang, Ziyi Lin, Shijie Geng, Aojun Zhou, Wei Zhang, Pan Lu, Conghui He, Xiangyu Yue, Hongsheng Li, Yu Qiao*
 - **LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models.** arxiv 2023. [paper](https://arxiv.org/abs/2304.01933).<br />
 *Zhiqiang Hu, Yihuai Lan, Lei Wang, Wanyu Xu, Ee-Peng Lim, Roy Ka-Wei Lee, Lidong Bing, Xing Xu, Soujanya Poria*
+- **A Simple and Effective Pruning Approach for Large Language Models.** arxiv 2023. [paper](https://arxiv.org/abs/2306.11695v1). [code](https://github.com/locuslab/wanda) <br />
+*Mingjie Sun, Zhuang Liu, Anna Bair, J. Zico Kolter*
+- **LLM-Pruner: On the Structural Pruning of Large Language Models.** arxiv 2023. [paper](https://arxiv.org/abs/2305.11627v2). [code](https://github.com/horseee/llm-pruner) <br />
+*Xinyin Ma, Gongfan Fang, Xinchao Wang*
 
-### LLaMA in Real world application
+### Fine-tune LLaMA on downstream tasks
 
 - **ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge.**. arxiv 2023. [paper](https://arxiv.org/abs/2303.14070).<br />
 *Yunxiang Li, Zihan Li, Kai Zhang, Ruilong Dan, Steve Jiang, You Zhang*
@@ -39,6 +46,37 @@ via Generative Data Augmentation.** arxiv 2023. [paper](https://arxiv.org/abs/23
 *Zhen Guo, Peiqi Wang, Yanwei Wang, Shangdi Yu*
 - **Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks.** arxiv 2023. [paper](https://arxiv.org/abs/2305.14201).<br />
 *Tiedong Liu, Bryan Kian Hsiang Low*
+- **WizardLM: Empowering Large Language Models to Follow Complex Instructions.** arxiv 2023. [paper](https://arxiv.org/abs/2304.12244v2). [code](https://github.com/nlpxucan/wizardlm) <br />
+*Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng, Pu Zhao, Jiazhan Feng, Chongyang Tao, Daxin Jiang*
+- **Enhancing Chat Language Models by Scaling High-quality Instructional Conversations.** arxiv 2023. [paper](https://arxiv.org/abs/2305.14233v1). [code](https://github.com/thunlp/ultrachat) <br />
+*Ning Ding, Yulin Chen, Bokai Xu, Yujia Qin, Zhi Zheng, Shengding Hu, Zhiyuan Liu, Maosong Sun, BoWen Zhou*
+- **LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction.** arxiv 2023. [paper](https://arxiv.org/abs/2304.08460v1). [code](https://github.com/akoksal/longform) <br />
+*Abdullatif Köksal, Timo Schick, Anna Korhonen, Hinrich Schütze*
+- **In-Context Learning User Simulators for Task-Oriented Dialog Systems.** arxiv 2023. [paper](https://arxiv.org/abs/2306.00774v1). [code](https://github.com/telepathylabsai/prompt-based-user-simulator) <br />
+*Silvia Terragni, Modestas Filipavicius, Nghia Khau, Bruna Guedes, André Manso, Roland Mathis*
+
+### LLaMA with retrieval
+
+- **Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models.** arxiv 2023. [paper](https://arxiv.org/abs/2305.13675). [code](https://github.com/daniel-furman/polyglot-or-not) <br />
+*Tim Schott, Daniel Furman, Shreshta Bhat*
+- **ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models** [paper](https://arxiv.org/abs/2305.18323v1). [code](https://github.com/billxbf/rewoo) <br />
+*Binfeng Xu, Zhiyuan Peng, Bowen Lei, Subhabrata Mukherjee, Yuchen Liu, Dongkuan Xu*
+- **Landmark Attention: Random-Access Infinite Context Length for Transformers.** arxiv 2023. [paper](https://arxiv.org/abs/2305.16300v1). [code](https://github.com/epfml/landmark-attention) <br />
+*Amirkeivan Mohtashami, Martin Jaggi*
+
+### LLaMA using reinforcement learning
+
+- **LIMA: Less Is More for Alignment.** arxiv 2023. [paper](https://arxiv.org/abs/2305.11206v1). [code](https://github.com/h2oai/h2o-llmstudio) <br />
+*Chunting Zhou, Pengfei Liu, Puxin Xu, Srini Iyer, Jiao Sun, Yuning Mao, Xuezhe Ma, Avia Efrat, Ping Yu, Lili Yu, Susan Zhang, Gargi Ghosh, Mike Lewis, Luke Zettlemoyer, Omer Levy*
+- **RRHF: Rank Responses to Align Language Models with Human Feedback without tears.** [code](https://arxiv.org/abs/2304.05302v2). [code](https://github.com/ganjinzero/rrhf) <br />
+*Zheng Yuan, Hongyi Yuan, Chuanqi Tan, Wei Wang, Songfang Huang, Fei Huang*
+
+### Quantitative analysis of LLaMA
+
+- **SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression.** arxiv 2023. [paper](https://arxiv.org/abs/2306.03078v1).[code](https://github.com/vahe1994/spqr) <br />
+*Tim Dettmers, Ruslan Svirschevski, Vage Egiazarian, Denis Kuznedelev, Elias Frantar, Saleh Ashkboos, Alexander Borzunov, Torsten Hoefler, Dan Alistarh*
+- **SqueezeLLM: Dense-and-Sparse Quantization.** arxiv 2023. [paper](https://arxiv.org/abs/2306.07629v1). [code](https://github.com/squeezeailab/squeezellm) <br />
+*Sehoon Kim, Coleman Hooper, Amir Gholami, Zhen Dong, Xiuyu Li, Sheng Shen, Michael W. Mahoney, Kurt Keutzer*
 
 ## How to contribute
 
