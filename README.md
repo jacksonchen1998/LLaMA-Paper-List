@@ -68,12 +68,12 @@ via Generative Data Augmentation.** arxiv 2023. [paper](https://arxiv.org/abs/23
 
 - **LIMA: Less Is More for Alignment.** arxiv 2023. [paper](https://arxiv.org/abs/2305.11206v1). [code](https://github.com/h2oai/h2o-llmstudio) <br />
 *Chunting Zhou, Pengfei Liu, Puxin Xu, Srini Iyer, Jiao Sun, Yuning Mao, Xuezhe Ma, Avia Efrat, Ping Yu, Lili Yu, Susan Zhang, Gargi Ghosh, Mike Lewis, Luke Zettlemoyer, Omer Levy*
-- **RRHF: Rank Responses to Align Language Models with Human Feedback without tears.** [code](https://arxiv.org/abs/2304.05302v2). [code](https://github.com/ganjinzero/rrhf) <br />
+- **RRHF: Rank Responses to Align Language Models with Human Feedback without tears.** [paper](https://arxiv.org/abs/2304.05302v2). [code](https://github.com/ganjinzero/rrhf) <br />
 *Zheng Yuan, Hongyi Yuan, Chuanqi Tan, Wei Wang, Songfang Huang, Fei Huang*
 
 ### Quantitative analysis of LLaMA
 
-- **SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression.** arxiv 2023. [paper](https://arxiv.org/abs/2306.03078v1).[code](https://github.com/vahe1994/spqr) <br />
+- **SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression.** arxiv 2023. [paper](https://arxiv.org/abs/2306.03078v1). [code](https://github.com/vahe1994/spqr) <br />
 *Tim Dettmers, Ruslan Svirschevski, Vage Egiazarian, Denis Kuznedelev, Elias Frantar, Saleh Ashkboos, Alexander Borzunov, Torsten Hoefler, Dan Alistarh*
 - **SqueezeLLM: Dense-and-Sparse Quantization.** arxiv 2023. [paper](https://arxiv.org/abs/2306.07629v1). [code](https://github.com/squeezeailab/squeezellm) <br />
 *Sehoon Kim, Coleman Hooper, Amir Gholami, Zhen Dong, Xiuyu Li, Sheng Shen, Michael W. Mahoney, Kurt Keutzer*
