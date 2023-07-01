@@ -19,6 +19,20 @@ Collection of papers using LLaMA as backbone model.
 *YHugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample*
 - **Training Compute-Optimal Large Language Models.** NeurIPS 2022. [paper](https://arxiv.org/abs/2203.15556).<br />
 *Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, Tom Hennigan, Eric Noland, Katie Millican, George van den Driessche, Bogdan Damoc, Aurelia Guy, Simon Osindero, Karen Simonyan, Erich Elsen, Jack W. Rae, Oriol Vinyals, Laurent Sifre*
+- **Root Mean Square Layer Normalization.** NeurIPS 2019. [paper](https://arxiv.org/abs/1910.07467). [code](https://github.com/bzhangGo/rmsnorm) <br />
+*Biao Zhang, Rico Sennrich*
+- **GLU Variants Improve Transformer.** arxiv 2020. [paper](https://arxiv.org/abs/2002.05202). [code](https://github.com/Rishit-dagli/GLU) <br />
+*Noam Shazeer*
+- **RoFormer: Enhanced Transformer with Rotary Position Embedding.** arxiv 2021. [paper](https://arxiv.org/abs/2104.09864). [code](https://github.com/ZhuiyiTechnology/roformer) <br />
+*Jianlin Su, Yu Lu, Shengfeng Pan, Ahmed Murtadha, Bo Wen, Yunfeng Liu*
+- **Decoupled Weight Decay Regularization.** ICLR 2019. [paper](https://arxiv.org/abs/1711.05101). [code](https://github.com/loshchil/AdamW-and-SGDW) <br />
+*Ilya Loshchilov, Frank Hutter*
+- **Self-attention Does Not Need $O(n^2)$ Memory.** arxiv 2021. [paper](https://arxiv.org/abs/2112.05682). [code](https://github.com/lucidrains/memory-efficient-attention-pytorch) <br />
+*Markus N. Rabe and Charles Staats*
+- **FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness.** arxiv 2022. [paper](https://arxiv.org/abs/2205.14135). [code](https://github.com/HazyResearch/flash-attention) <br />
+*Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, Christopher Ré*
+- **Reducing Activation Recomputation in Large Transformer Models.** arxiv 2022. [paper](https://arxiv.org/abs/2205.14135). <br />
+*Vijay Korthikanti, Jared Casper, Sangkug Lym, Lawrence McAfee, Michael Andersch, Mohammad Shoeybi, Bryan Catanzaro*
 
 ### LLaMA with parameter efficiency
 
