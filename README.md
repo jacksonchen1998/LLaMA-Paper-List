@@ -2,6 +2,12 @@
 
 Collection of papers using LLaMA as backbone model.
 
+## Contributors
+
+<a href="https://github.com/jacksonchen1998/LLaMA-Paper-List/graphs/contributors">
+  <img src="http://contributors.nn.ci/api?repo=jacksonchen1998/LLaMA-Paper-List" />
+</a>
+
 ## Table of Contents
 
 - [About LLaMA and related theory](#about-llama-and-related-theory)
