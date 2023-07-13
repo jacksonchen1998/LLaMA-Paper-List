@@ -74,7 +74,8 @@ via Generative Data Augmentation.** arxiv 2023. [paper](https://arxiv.org/abs/23
 *Abdullatif Köksal, Timo Schick, Anna Korhonen, Hinrich Schütze*
 - **In-Context Learning User Simulators for Task-Oriented Dialog Systems.** arxiv 2023. [paper](https://arxiv.org/abs/2306.00774v1). [code](https://github.com/telepathylabsai/prompt-based-user-simulator) <br />
 *Silvia Terragni, Modestas Filipavicius, Nghia Khau, Bruna Guedes, André Manso, Roland Mathis*
-
+- **NetGPT: A Native-AI Network Architecture Beyond Provisioning Personalized Generative Services.** arxiv 2023. [paper](https://arxiv.org/pdf/2307.06148.pdf). [code]() <br />
+*Yuxuan Chen, Rongpeng Li, Zhifeng Zhao, Chenghui Peng, Jianjun Wu, Ekram Hossain, Honggang Zhang*
 ### LLaMA with retrieval
 
 - **Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models.** arxiv 2023. [paper](https://arxiv.org/abs/2305.13675). [code](https://github.com/daniel-furman/polyglot-or-not) <br />
