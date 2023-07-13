@@ -76,6 +76,8 @@ via Generative Data Augmentation.** arxiv 2023. [paper](https://arxiv.org/abs/23
 *Silvia Terragni, Modestas Filipavicius, Nghia Khau, Bruna Guedes, André Manso, Roland Mathis*
 - **NetGPT: A Native-AI Network Architecture Beyond Provisioning Personalized Generative Services.** arxiv 2023. [paper](https://arxiv.org/pdf/2307.06148.pdf). [code]() <br />
 *Yuxuan Chen, Rongpeng Li, Zhifeng Zhao, Chenghui Peng, Jianjun Wu, Ekram Hossain, Honggang Zhang*
+- **On decoder-only architecture for speech-to-text and large language model integration.** arxiv 2023. [paper](https://arxiv.org/pdf/2307.03917.pdf). [code]() <br />
+*Jian Wu, Yashesh Gaur, Zhuo Chen, Long Zhou, Yimeng Zhu, Tianrui Wang, Jinyu Li, Shujie Liu, Bo Ren, Linquan Liu, Yu Wu*
 ### LLaMA with retrieval
 
 - **Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models.** arxiv 2023. [paper](https://arxiv.org/abs/2305.13675). [code](https://github.com/daniel-furman/polyglot-or-not) <br />
