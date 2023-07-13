@@ -2,6 +2,12 @@
 
 Collection of papers using LLaMA as backbone model.
 
+## Contributors
+
+<a href="https://github.com/jacksonchen1998/LLaMA-Paper-List/graphs/contributors">
+  <img src="http://contributors.nn.ci/api?repo=jacksonchen1998/LLaMA-Paper-List" />
+</a>
+
 ## Table of Contents
 
 - [About LLaMA and related theory](#about-llama-and-related-theory)
@@ -68,7 +74,10 @@ via Generative Data Augmentation.** arxiv 2023. [paper](https://arxiv.org/abs/23
 *Abdullatif Köksal, Timo Schick, Anna Korhonen, Hinrich Schütze*
 - **In-Context Learning User Simulators for Task-Oriented Dialog Systems.** arxiv 2023. [paper](https://arxiv.org/abs/2306.00774v1). [code](https://github.com/telepathylabsai/prompt-based-user-simulator) <br />
 *Silvia Terragni, Modestas Filipavicius, Nghia Khau, Bruna Guedes, André Manso, Roland Mathis*
-
+- **NetGPT: A Native-AI Network Architecture Beyond Provisioning Personalized Generative Services.** arxiv 2023. [paper](https://arxiv.org/pdf/2307.06148.pdf). [code]() <br />
+*Yuxuan Chen, Rongpeng Li, Zhifeng Zhao, Chenghui Peng, Jianjun Wu, Ekram Hossain, Honggang Zhang*
+- **On decoder-only architecture for speech-to-text and large language model integration.** arxiv 2023. [paper](https://arxiv.org/pdf/2307.03917.pdf). [code]() <br />
+*Jian Wu, Yashesh Gaur, Zhuo Chen, Long Zhou, Yimeng Zhu, Tianrui Wang, Jinyu Li, Shujie Liu, Bo Ren, Linquan Liu, Yu Wu*
 ### LLaMA with retrieval
 
 - **Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models.** arxiv 2023. [paper](https://arxiv.org/abs/2305.13675). [code](https://github.com/daniel-furman/polyglot-or-not) <br />
