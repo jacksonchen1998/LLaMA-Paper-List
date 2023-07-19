@@ -21,8 +21,10 @@ Collection of papers using LLaMA as backbone model.
 
 ### About LLaMA and related theory
 
-- **LLaMA: Open and Efficient Foundation Language Models.** arxiv 2023. [paper](https://arxiv.org/abs/2302.13971). [code](https://github.com/facebookresearch/llama/tree/main)<br />
+- **LLaMA: Open and Efficient Foundation Language Models.** arxiv 2023. [paper](https://arxiv.org/abs/2302.13971). [code](https://github.com/facebookresearch/llama/tree/llama_v1)<br />
 *YHugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample*
+- **Llama 2: Open Foundation and Fine-Tuned Chat Models.** Meta AI 2023. [paper](hhttps://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/). [code](https://github.com/facebookresearch/llama/tree/main) <br />
+*Hugo Touvron, Louis Martin, Kevin Stone et al.*
 - **Training Compute-Optimal Large Language Models.** NeurIPS 2022. [paper](https://arxiv.org/abs/2203.15556).<br />
 *Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, Tom Hennigan, Eric Noland, Katie Millican, George van den Driessche, Bogdan Damoc, Aurelia Guy, Simon Osindero, Karen Simonyan, Erich Elsen, Jack W. Rae, Oriol Vinyals, Laurent Sifre*
 - **Root Mean Square Layer Normalization.** NeurIPS 2019. [paper](https://arxiv.org/abs/1910.07467). [code](https://github.com/bzhangGo/rmsnorm) <br />
