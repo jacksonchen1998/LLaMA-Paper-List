@@ -16,6 +16,7 @@ Collection of papers using LLaMA as backbone model.
 - [LLaMA with retrieval](#llama-with-retrieval)
 - [LLaMA using reinforcement learning](#llama-using-reinforcement-learning)
 - [Quantitative analysis of LLaMA](#quantitative-analysis-of-llama)
+- [Prompting LLaMA](#prompting-llama)
 
 ## Papers
 
@@ -102,6 +103,7 @@ via Generative Data Augmentation.** arxiv 2023. [paper](https://arxiv.org/abs/23
 *Tim Dettmers, Ruslan Svirschevski, Vage Egiazarian, Denis Kuznedelev, Elias Frantar, Saleh Ashkboos, Alexander Borzunov, Torsten Hoefler, Dan Alistarh*
 - **SqueezeLLM: Dense-and-Sparse Quantization.** arxiv 2023. [paper](https://arxiv.org/abs/2306.07629v1). [code](https://github.com/squeezeailab/squeezellm) <br />
 *Sehoon Kim, Coleman Hooper, Amir Gholami, Zhen Dong, Xiuyu Li, Sheng Shen, Michael W. Mahoney, Kurt Keutzer*
+
 ### Prompting LLaMA 
 - **Prompting Large Language Models for Zero-Shot Domain Adaptation in Speech Recognition.**. arxiv 2023. [paper](https://arxiv.org/abs/2306.16007).<br />
     *Yuang Li, Yu Wu, Jinyu Li, Shujie Liu*
