@@ -10,9 +10,11 @@ Collection of papers using LLaMA as backbone model.
 
 ## Table of Contents
 
-- [About LLaMA and related theory](#about-llama-and-related-theory)
+- [Original LLaMA paper](#original-llama-paper)
+- [Related theory with LLaMA](#related-theory-with-llama)
 - [LLaMA with parameter efficiency](#llama-with-parameter-efficiency)
 - [Fine-tune LLaMA on downstream tasks](#fine-tune-llama-on-downstream-tasks)
+- [LLaMA combined with multi-modal](#llama-combined-with-multi-modal)
 - [LLaMA with retrieval](#llama-with-retrieval)
 - [LLaMA using reinforcement learning](#llama-using-reinforcement-learning)
 - [Quantitative analysis of LLaMA](#quantitative-analysis-of-llama)
@@ -20,12 +22,19 @@ Collection of papers using LLaMA as backbone model.
 
 ## Papers
 
-### About LLaMA and related theory
+### Original LLaMA paper
 
 - **LLaMA: Open and Efficient Foundation Language Models.** arxiv 2023. [paper](https://arxiv.org/abs/2302.13971). [code](https://github.com/facebookresearch/llama/tree/llama_v1)<br />
 *Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample*
 - **Llama 2: Open Foundation and Fine-Tuned Chat Models.** Meta AI 2023. [paper](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/). [code](https://github.com/facebookresearch/llama/tree/main) <br />
 *Hugo Touvron, Louis Martin, Kevin Stone et al.*
+- **The Llama 3 Herd of Models.** arxiv 2024. [paper](https://arxiv.org/abs/2407.21783). [code](https://github.com/meta-llama/llama3) <br />
+*Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey et al.*
+
+### Related theory with LLaMA
+
+- **Large Language Models Are Zero-Shot Time Series Forecasters.** NeurIPS 2023. [paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/3eb7ca52e8207697361b2c0fb3926511-Abstract-Conference.html). [code](https://github.com/ngruver/llmtime) <br />
+*Nate Gruver, Marc Finzi, Shikai Qiu, Andrew Gordon Wilson*
 - **Training Compute-Optimal Large Language Models.** NeurIPS 2022. [paper](https://arxiv.org/abs/2203.15556).<br />
 *Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, Tom Hennigan, Eric Noland, Katie Millican, George van den Driessche, Bogdan Damoc, Aurelia Guy, Simon Osindero, Karen Simonyan, Erich Elsen, Jack W. Rae, Oriol Vinyals, Laurent Sifre*
 - **Root Mean Square Layer Normalization.** NeurIPS 2019. [paper](https://arxiv.org/abs/1910.07467). [code](https://github.com/bzhangGo/rmsnorm) <br />
@@ -58,7 +67,13 @@ Collection of papers using LLaMA as backbone model.
 
 ### Fine-tune LLaMA on downstream tasks
 
-- **ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge.**. arxiv 2023. [paper](https://arxiv.org/abs/2303.14070).<br />
+- **Graph of Thoughts: Solving Elaborate Problems with Large Language Models.** AAAI 2024. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/29720). [code](https://github.com/spcl/graph-of-thoughts). <br />
+*Maciej Besta, Nils Blach, Ales Kubicek et al.*
+- **How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources.** NeurIPS 2023. [paper](https://arxiv.org/abs/2306.04751). [code](https://github.com/allenai/open-instruct) <br />
+*Yizhong Wang, Hamish Ivison, Pradeep Dasigi et al.*
+- **Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision.** NeurIPS 2023. [paper](https://arxiv.org/abs/2305.03047). [code](https://github.com/IBM/Dromedary) <br />
+*Zhiqing Sun, Yikang Shen, Qinhong Zhou et al.*
+- **ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge.** arxiv 2023. [paper](https://arxiv.org/abs/2303.14070).<br />
 *Yunxiang Li, Zihan Li, Kai Zhang, Ruilong Dan, Steve Jiang, You Zhang*
 - **Efficient and Effective Text Encoding for Chinese LLaMA and Alpaca.** arxiv 2023. [paper](https://arxiv.org/abs/2304.08177). [code](https://github.com/ymcui/Chinese-LLaMA-Alpaca)<br />
 *Yiming Cui, Ziqing Yang, Xin Yao*
@@ -81,6 +96,12 @@ via Generative Data Augmentation.** arxiv 2023. [paper](https://arxiv.org/abs/23
 *Yuxuan Chen, Rongpeng Li, Zhifeng Zhao, Chenghui Peng, Jianjun Wu, Ekram Hossain, Honggang Zhang*
 - **On decoder-only architecture for speech-to-text and large language model integration.** arxiv 2023. [paper](https://arxiv.org/pdf/2307.03917.pdf). [code]() <br />
 *Jian Wu, Yashesh Gaur, Zhuo Chen, Long Zhou, Yimeng Zhu, Tianrui Wang, Jinyu Li, Shujie Liu, Bo Ren, Linquan Liu, Yu Wu*
+
+### LLaMA combined with multi-modal
+
+- **MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI.** CVPR 2024. [paper](https://openaccess.thecvf.com/content/CVPR2024/html/Yue_MMMU_A_Massive_Multi-discipline_Multimodal_Understanding_and_Reasoning_Benchmark_for_CVPR_2024_paper.html). [code](https://github.com/MMMU-Benchmark/MMMU) <br />
+*Xiang Yue, Yuansheng Ni, Kai Zhang et al.*
+
 ### LLaMA with retrieval
 
 - **Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models.** arxiv 2023. [paper](https://arxiv.org/abs/2305.13675). [code](https://github.com/daniel-furman/polyglot-or-not) <br />
