@@ -10,6 +10,7 @@ Collection of papers using LLaMA as backbone model.
 
 ## Table of Contents
 
+- [Official LLaMA blog post](#official-llama-blog-post)
 - [Original LLaMA paper](#original-llama-paper)
 - [Related theory with LLaMA](#related-theory-with-llama)
 - [LLaMA with parameter efficiency](#llama-with-parameter-efficiency)
@@ -19,6 +20,12 @@ Collection of papers using LLaMA as backbone model.
 - [LLaMA using reinforcement learning](#llama-using-reinforcement-learning)
 - [Quantitative analysis of LLaMA](#quantitative-analysis-of-llama)
 - [Prompting LLaMA](#prompting-llama)
+
+## Blog posts
+
+### Official LLaMA blog post
+
+- [The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation](https://ai.meta.com/blog/llama-4-multimodal-intelligence/?utm_source=llama-home-behemoth&utm_medium=llama-referral&utm_campaign=llama-utm&utm_offering=llama-behemoth-preview&utm_product=llama)
 
 ## Papers
 
